@@ -1,0 +1,46 @@
+body {
+  background: #1d3754;
+  
+}
+#imageSection{
+	width: 90%;
+	background-color: transparent;
+	margin: 20px auto 20px ;
+	padding: 10px;
+}
+#container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content:center;
+}
+.imageHolder{
+	height: 250px;
+	padding: 0px 20px 20px;
+}
+
+#wish-container{
+	margin: 30px auto 10px;
+	background-color: #080d20c9;
+	max-width: 380px;
+	font-family: monospace;
+	font-size: 13px;
+	padding: 5px;
+	border-radius: 5px;
+	color: #c6babad6;
+}
+h4{
+	margin: 1px;
+}
+p.signed{
+	text-align: center;
+	font-family: monospace;
+	font-size: 20px;
+	margin: 1px auto;
+}
+.imageHolder img{
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;
+}
